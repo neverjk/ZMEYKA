@@ -1,0 +1,26 @@
+lsd mode:
+	- score dies
+	- snake length lags
+	- snake skin changes
+	- background changes
+	- music changes
+	- snake dies and
+		jesus appears
+
+[ LSDMODE class ]
+	bool isOn
+	label score
+	label gameOver
+	image background
+	
+	timer start trip
+	timer backgroundChanges
+
+	int length trip
+		[ 10sec - 30sec ]
+	
+[ LSDRESOURCES class ]
+	snake skins
+	backgroundS
+	music
+	sounds
